@@ -190,12 +190,12 @@ const Index = () => {
 
                 <p><strong>Effective Date:</strong> 07/11/2025</p>
                 <p><strong>Publisher:</strong> Deenway Ltd</p>
-                <p><strong>Contact:</strong> support@deenway.app</p>
+                <p><strong>Contact:</strong> admin@deenway.info</p>
 
                 <div>
                   <h3 className="text-xl font-semibold mb-2">1. Introduction</h3>
                   <p>
-                    This Privacy Policy explains how we handle your information when you use the Deenway mobile app. Deenway Ltd is based in the United Kingdom, although the app is available worldwide. By using the app, you consent to the practices described in this policy.
+                   This Privacy Policy explains how we handle your information when you use the Deenway mobile app. Deenway Ltd is based in the United Kingdom, although the app is available for users worldwide. By using the app, you consent to the practices described in this policy.
                   </p>
                 </div>
 
@@ -205,7 +205,7 @@ const Index = () => {
 
                   <div className="space-y-2 pl-1 mt-3">
                     <p>Email address</p>
-                    <p>Display name (optional)</p>
+                    <p>Display name</p>
                     <p>General analytics and engagement data</p>
                     <p>Subscription status and entitlement details</p>
                   </div>
@@ -226,33 +226,33 @@ const Index = () => {
                 <div>
                   <h3 className="text-xl font-semibold mb-2">4. Data Storage & Security</h3>
                   <p>
-                    Your information is securely stored through Supabase, our backend provider. We take reasonable measures to prevent unauthorised access, and you may delete your account at any time through the app settings.
+                    Your information is securely stored through Supabase and Cloudflare, which acts as our backend provider. We rely on industry-standard safeguards to protect your data and implement additional practices internally to prevent unauthorised access. You may delete your account at any time through the app settings, and your data will be removed within a reasonable timeframe.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-semibold mb-2">5. Data Sharing</h3>
                   <p>
-                    We do not sell personal data. We may share minimal, non-identifiable analytics with trusted partners solely to improve app performance.
+                    Deenway does not sell personal data. We may share limited, non-identifiable analytics with trusted third-party services solely for improving our app’s performance and stability. These third parties do not receive your email address or personal profile information.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-semibold mb-2">6. Affiliate Links</h3>
                   <p>
-                    Some book listings include affiliate links that redirect you to third-party websites with their own privacy practices.
+                    Some books listed in the app include affiliate links. If you choose to make a purchase through these links, you may be redirected to external websites that follow their own privacy policies.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-semibold mb-2">7. Account Deletion</h3>
-                  <p>You may delete your account at any time using the in-app settings.</p>
+                  <p>You may delete your account at any time using the in-app settings. Once deleted, your data will be permanently removed from our systems.</p>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-semibold mb-2">8. International Users</h3>
                   <p>
-                    Although Deenway Ltd is UK-based, users worldwide may access the app. Data may be processed in the UK or locations where our service providers operate.
+                   While Deenway Ltd is UK-based, users from any country may access the app. Data may be processed in the United Kingdom or in locations where our service providers operate, in compliance with applicable data protection requirements.
                   </p>
                 </div>
 
@@ -268,7 +268,7 @@ const Index = () => {
                   </div>
 
                   <p className="mt-3">
-                    You can contact <strong>support@deenway.app</strong> for assistance.
+                    You can contact <strong>admin@deenway.info</strong> for assistance.
                   </p>
                 </div>
 
@@ -295,70 +295,70 @@ const Index = () => {
                 <div>
                   <h3 className="text-xl font-semibold mb-2">1. Introduction</h3>
                   <p>
-                    These Terms govern your use of the Deenway app, operated by Deenway Ltd in the United Kingdom. Users from around the world are welcome.
+                    These Terms of Service outline how you may use the Deenway mobile app. The service is operated by Deenway Ltd, a company based in the United Kingdom and currently in the process of formal registration. The app may be used by individuals worldwide.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-semibold mb-2">2. About the App</h3>
                   <p>
-                    Deenway offers short summaries of Islamic books. The app is currently free but will eventually introduce optional subscriptions for premium access.
+                   Deenway offers short, thoughtfully prepared summaries of Islamic books. These summaries are intended to help users learn and reflect, especially when time is limited. The app is currently free to use, but we plan to introduce optional monthly and yearly subscriptions for full library access and premium features.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-semibold mb-2">3. Intellectual Property</h3>
                   <p>
-                    All summaries and content belong to Deenway Ltd and may not be copied or distributed without permission.
+                    All content within the app—including summaries, descriptions, and related materials—is owned by Deenway Ltd. You may not copy, reproduce, or distribute this content without our written permission.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-semibold mb-2">4. Educational Disclaimer</h3>
                   <p>
-                    Deenway does not summarise tafsir, hadith collections or seerah due to their scholarly nature. Summaries are for general reflection, not religious rulings.
+                    Deenway does not summarise tafsir, hadith collections, or seerah texts, as these works require scholarly precision and care. The summaries in the app are intended for general understanding and personal reflection, not for issuing religious rulings or fatwas. For religious guidance, users should consult qualified scholars.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-semibold mb-2">5. User Accounts</h3>
                   <p>
-                    You are responsible for your login details. You may delete your account at any time from the app.
+                   You are responsible for keeping your login details secure. If you choose to delete your account, you may do so at any time within the app, and your data will be permanently removed.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-semibold mb-2">6. Affiliate Links</h3>
                   <p>
-                    Some books include affiliate links. Purchases made through them may earn a small commission for Deenway at no extra cost to you.
+                    Some books in the app contain affiliate links. If you make a purchase through these links, we may earn a small commission at no additional cost to you. This helps support the ongoing development of the app.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-semibold mb-2">7. Subscriptions</h3>
                   <p>
-                    Future subscriptions will renew automatically unless cancelled through App Store or Google Play settings.
+                    When paid subscriptions are introduced, they will renew automatically unless cancelled through your App Store or Google Play settings. Your access will remain active until the end of the billing cycle.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-semibold mb-2">8. Acceptable Use</h3>
                   <p>
-                    You may not misuse, disrupt, or attempt to reverse engineer the app.
+                    You agree not to misuse the app, attempt to reverse-engineer it, disrupt its functionality, or engage in behaviour that could harm the service or other users.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-semibold mb-2">9. Limitation of Liability</h3>
                   <p>
-                    The app is provided “as is”. Deenway Ltd is not responsible for any damages arising from its use.
+                    The app is provided “as is.” While we aim to maintain a reliable experience, Deenway Ltd cannot guarantee uninterrupted access and is not liable for damages arising from the use of the app.
                   </p>
                 </div>
 
                 <div>
                   <h3 className="text-xl font-semibold mb-2">10. Governing Law</h3>
                   <p>
-                    These Terms are governed by UK law. You may contact us with any questions at <strong>admin@deenway.info</strong>.
+                    These Terms are governed by the laws of the United Kingdom. If you have any concerns or questions, you may contact us at admin@deenway.info.
                   </p>
                 </div>
 
