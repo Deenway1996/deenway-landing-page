@@ -38,7 +38,7 @@ const Index = () => {
               ))}
             </div>
 
-            {/* Email in Header */}
+            {/* EMAIL IN HEADER */}
             <div className="hidden md:flex">
               <a
                 href="mailto:admin@deenway.info"
@@ -47,7 +47,6 @@ const Index = () => {
                 admin@deenway.info
               </a>
             </div>
-
 
           </nav>
         </div>
@@ -79,8 +78,6 @@ const Index = () => {
 
               {/* STORE BADGES */}
               <div className="flex flex-col sm:flex-row gap-6 pt-4 items-start">
-
-                {/* App Store */}
                 <div className="relative badge-wrapper opacity-90 hover:opacity-100 transition">
                   <img src="/images/app-store-badge.svg" className="store-badge" alt="App Store badge" />
                   <div className="absolute inset-0 flex items-center justify-center">
@@ -88,14 +85,12 @@ const Index = () => {
                   </div>
                 </div>
 
-                {/* Play Store */}
                 <div className="relative badge-wrapper opacity-90 hover:opacity-100 transition">
                   <img src="/images/google-play-badge.svg" className="store-badge" alt="Google Play badge" />
                   <div className="absolute inset-0 flex items-center justify-center">
                     <span className="coming-soon">Coming Soon</span>
                   </div>
                 </div>
-
               </div>
             </div>
 
@@ -160,7 +155,7 @@ const Index = () => {
               { q: "What is Deenway?", a: "Deenway is a mobile app offering short, high-quality summaries of Islamic books, created to make beneficial knowledge more accessible in a busy world." },
               { q: "How are the summaries created?", a: "Summaries are produced using a blend of AI assistance and careful human review, ensuring clarity while honouring the intent of the original texts." },
               { q: "Do you summarise tafsir, hadith, or seerah?", a: "No. These works require scholarly depth, so we avoid summarising them. Instead, we focus on Islamic lifestyle, spirituality, personal development, and contemporary beneficial works." },
-              { q: "How long are the summaries?", a: "Most summaries take around 3–10 minutes to read, depending on the book and its themes." },
+              { q: "How long are the summaries?", a: "Most summaries take around 3–10 minutes, depending on the book and its themes." },
               { q: "Is Deenway free?", a: "The app is currently free. Later, optional monthly and yearly subscriptions will unlock the full library and upcoming premium features." },
               { q: "Can I recommend a book?", a: "Absolutely. You can email your suggestions to admin@deenway.info anytime." }
             ].map(({ q, a }, i) => (
@@ -174,7 +169,7 @@ const Index = () => {
         </div>
       </section>
 
-      {/* LEGAL */}
+      {/* LEGAL SECTION */}
       <section id="legal" className="py-20 md:py-32 bg-secondary/30">
         <div className="container mx-auto px-4 max-w-4xl">
 
@@ -201,15 +196,183 @@ const Index = () => {
                   </p>
                 </div>
 
-                {/* — rest unchanged — */}
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">2. Information We Collect</h3>
+                  <p>We may collect the following information when you create an account or use the app:</p>
+                  <ul className="space-y-2 pl-4 mt-3 list-disc">
+                    <li>Email address</li>
+                    <li>Display name</li>
+                    <li>General analytics and engagement data</li>
+                    <li>Subscription status and entitlement details</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">3. How We Use Your Information</h3>
+                  <p>Your information is used to operate and improve the app, including:</p>
+                  <ul className="space-y-2 pl-4 mt-3 list-disc">
+                    <li>Creating and maintaining your account</li>
+                    <li>Delivering personalized summaries and app features</li>
+                    <li>Monitoring performance and improving user experience</li>
+                    <li>Sending important updates about your account or subscription</li>
+                  </ul>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">4. Data Storage & Security</h3>
+                  <p>
+                    Your information is securely stored through Supabase and Cloudflare, which act as our backend providers. 
+                    We rely on industry-standard safeguards to protect your data and implement additional internal practices 
+                    to prevent unauthorized access. You may delete your account at any time, and your data will be removed 
+                    within a reasonable timeframe.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">5. Data Sharing</h3>
+                  <p>
+                    Deenway does not sell personal data. We may share limited, non-identifiable analytics with trusted 
+                    third-party services solely for improving app performance. These third parties do not receive your email 
+                    address or personal profile information.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">6. Affiliate Links</h3>
+                  <p>
+                    Some books listed in the app include affiliate links. If you choose to make a purchase through these 
+                    links, you may be redirected to external websites that follow their own privacy policies.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">7. Account Deletion</h3>
+                  <p>You may delete your account at any time using in-app settings. Once deleted, your data will be permanently removed.</p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">8. International Users</h3>
+                  <p>
+                    While Deenway Ltd is UK-based, users from any country may access the app. Data may be processed in the UK 
+                    or other locations where our service providers operate, in compliance with applicable data protection laws.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">9. Your Rights</h3>
+                  <p>You have the right to:</p>
+                  <ul className="space-y-2 pl-4 mt-3 list-disc">
+                    <li>Request access to your data</li>
+                    <li>Request correction or deletion of your data</li>
+                    <li>Withdraw consent to data processing</li>
+                    <li>Contact us with any privacy concerns</li>
+                  </ul>
+                  <p className="mt-3">
+                    For assistance, contact <strong>admin@deenway.info</strong>.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">10. Updates</h3>
+                  <p>
+                    We may update this Privacy Policy occasionally. Users will be notified in-app or via email when appropriate.
+                  </p>
+                </div>
+
               </AccordionContent>
             </AccordionItem>
 
-            {/* TERMS */}
+            {/* TERMS OF SERVICE */}
             <AccordionItem value="terms" className="bg-card border rounded-xl px-8 shadow-sm">
               <AccordionTrigger className="text-2xl font-bold py-8">Terms of Service</AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed pb-8 space-y-6">
-                {/* — unchanged for brevity — */}
+
+                <p><strong>Effective Date:</strong> 07/11/2025</p>
+                <p><strong>Publisher:</strong> Deenway Ltd</p>
+                <p><strong>Contact:</strong> admin@deenway.info</p>
+
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">1. Introduction</h3>
+                  <p>
+                    These Terms of Service outline how you may use the Deenway mobile app. The service is operated by Deenway Ltd, 
+                    a company based in the United Kingdom. The app is available globally.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">2. About the App</h3>
+                  <p>
+                    Deenway provides short, thoughtfully prepared summaries of Islamic books. These summaries are intended to help 
+                    users learn and reflect. The app is currently free, with future optional subscriptions planned to unlock premium 
+                    content and features.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">3. Intellectual Property</h3>
+                  <p>
+                    All content within the app—including summaries, descriptions, and related materials—is owned by Deenway Ltd. 
+                    You may not copy, reproduce, or distribute this content without written permission.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">4. Educational Disclaimer</h3>
+                  <p>
+                    Deenway does not summarise tafsir, hadith collections, or seerah texts, as these works require scholarly precision. 
+                    The summaries provided are intended for general understanding and personal reflection, not for issuing religious 
+                    rulings. For religious guidance, always consult qualified scholars.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">5. User Accounts</h3>
+                  <p>
+                    You are responsible for keeping your login details secure. If you delete your account, your data will be permanently 
+                    removed from our systems.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">6. Affiliate Links</h3>
+                  <p>
+                    Some books within the app include affiliate links. If you purchase through these links, we may earn a small 
+                    commission at no additional cost to you. This helps support ongoing development.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">7. Subscriptions</h3>
+                  <p>
+                    When premium subscriptions are introduced, they will renew automatically unless cancelled through your App Store 
+                    or Google Play settings. Access will remain active until the end of your billing cycle.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">8. Acceptable Use</h3>
+                  <p>
+                    You agree not to misuse the app, attempt to reverse-engineer it, disrupt functionality, or engage in behaviour 
+                    that harms the service or other users.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">9. Limitation of Liability</h3>
+                  <p>
+                    The app is provided “as is.” Deenway Ltd cannot guarantee uninterrupted access and is not responsible for damages 
+                    arising from use of the app.
+                  </p>
+                </div>
+
+                <div>
+                  <h3 className="text-xl font-semibold mb-2">10. Governing Law</h3>
+                  <p>
+                    These Terms are governed by the laws of the United Kingdom. If you have questions, contact us at 
+                    admin@deenway.info.
+                  </p>
+                </div>
+
               </AccordionContent>
             </AccordionItem>
 
