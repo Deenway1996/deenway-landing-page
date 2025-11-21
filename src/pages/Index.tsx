@@ -571,20 +571,21 @@ const Index = () => {
       <p>We may modify or discontinue any feature at any time.</p>
     </div>
 
-    <div>
-      <h3 className="text-xl font-semibold mb-2">18. Limitation of Liability</h3>
-      <p>To the fullest extent permitted by law, Deenway is not liable for:</p>
-      <ul className="list-disc pl-6 space
-       <li>Loss of data</li>
-<li>Indirect, incidental, or consequential damages</li>
-<li>Errors, outages, or interruptions</li>
-<li>Actions taken based on summaries or interpretations</li>
-<li>Reliance on educational content</li>
-</ul>
-<p>
-  You use the App at your own responsibility. If you disagree with these limitations,
-  discontinue use immediately.
-</p>
+<div>
+  <h3 className="text-xl font-semibold mb-2">18. Limitation of Liability</h3>
+  <p>To the fullest extent permitted by law, Deenway is not liable for:</p>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Loss of data</li>
+    <li>Indirect, incidental, or consequential damages</li>
+    <li>Errors, outages, or interruptions</li>
+    <li>Actions taken based on summaries or interpretations</li>
+    <li>Reliance on educational content</li>
+  </ul>
+  <p>
+    You use the App at your own responsibility. If you disagree with these limitations,
+    discontinue use immediately.
+  </p>
+</div>
 
 <div>
   <h3 className="text-xl font-semibold mb-2">19. Indemnification</h3>
@@ -599,6 +600,8 @@ const Index = () => {
     <li>Your infringement of copyrights or intellectual property</li>
   </ul>
 </div>
+
+
 
 <div>
   <h3 className="text-xl font-semibold mb-2">20. Service Modification & Termination</h3>
